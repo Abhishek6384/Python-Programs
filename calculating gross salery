@@ -1,0 +1,15 @@
+basic=int(input("enter the basic salary"))
+
+if(basic>10000):
+    da=(basic*10)/100
+    gross=da+basic
+    print("total Gross salary : ",gross)   
+elif(basic>20000):
+    da=(basic*20)/100
+    gross=da+basic
+    print("total Gross salary : ",gross)   
+elif(basic>=50000 and basic<60000):
+    da=(basic*30)/100
+    gross=da+basic
+    print("total Gross salary : ",gross)   
+ 
