@@ -1,0 +1,8 @@
+name=input("enter the word")
+
+temp=""
+for i in range(len(name)):
+    if name[i] not in temp:
+        print(f"count of {name[i]} : ",name.count(name[i]))
+        temp=temp+name[i]
+        
