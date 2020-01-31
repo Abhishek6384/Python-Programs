@@ -1,0 +1,14 @@
+a=1
+b=0
+for i in range(1,11):
+    if(a==1 and b==0):
+        print(a)
+        print(b)
+        b=a
+        a
+    else :
+        summ=a+b
+        print(summ)
+        b=a
+        a=summ
+    
