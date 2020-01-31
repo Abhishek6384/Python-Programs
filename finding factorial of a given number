@@ -1,0 +1,8 @@
+num=int(input("enter the number"))
+total=num
+while(num>1):
+    num=num-1
+    total=total*num
+      
+print(total)   
+   
