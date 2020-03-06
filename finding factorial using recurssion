@@ -1,0 +1,10 @@
+def fact(n):
+    ans=1
+    if n==1:
+        return ans
+    ans=n*fact(n-1)
+    return ans
+print("enter the number for factorial")
+n=int(input())
+result=fact(n)
+print("result : ",result)
