@@ -1,0 +1,45 @@
+
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+g=1
+final_ans=0
+while(g==1):
+    print("enter the number for calulation")
+    a=int(input())
+    b=int(input())
+    print("enter the operation to perform")
+    print("1. addition")
+    print("2. subtraction")
+    print("3. multiplication")
+    print("4. division")
+    op=int(input())
+    result=0
+    if(op==1):
+        result=add(a,b)
+        final_ans=result
+        print("result after addition : ",final_ans)
+    elif(op==2):
+        result=sub(a,b)
+        final_ans=result
+        print("result after subtraction : ",final_ans)
+    elif(op==3):
+        result=mul(a,b)
+        final_ans=result
+        print("result after multiplication : ",final_ans)
+    elif(op==4):
+        result=div(a,b)
+        final_ans=result
+        print("result after division : ",final_ans)
+    print("do u want to continue  press 1 for no press 0")
+    ans=int(input())
+    if(ans==1):
+        g=1
+    else:
+        g=0
+    
