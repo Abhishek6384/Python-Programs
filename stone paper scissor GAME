@@ -25,6 +25,8 @@ while(ch==1):
         print("congratulation ",p2)
     elif(p2c=="paper" and p1c=="scissor"):
         print("congratulation ",p1)
+    print()    
     print("DO u want to continue press 1 else 0 : ")
     ch=int(input())
+    
     
